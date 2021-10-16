@@ -25,6 +25,37 @@ button {
 
 /*----Components----*/
 
+.logo-link,
+.logo-link-dark-theme {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.logo-link span {
+  color: var(--main-color);
+}
+.logo-link-dark-theme {
+  color: var(--font-dark-theme);
+}
+.logo-link-dark-theme span {
+  color: var(--main-color);
+}
+.logo-link:focus,
+.logo-link:hover,
+.logo-link-dark-theme:hover,
+.logo-link-dark-theme:focus {
+  color: var(--main-color);
+}
+
+.header-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+}
+
 /*----Header Menu----*/
 .navi-list-link {
   font-weight: 500;
