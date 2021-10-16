@@ -19,6 +19,9 @@ a {
 li {
   list-style: none;
 }
+button {
+  border: none;
+}
 
 /*----Components----*/
 
@@ -83,6 +86,26 @@ li {
 .advant-text {
   font-size: 14px;
   line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--font-secondary-color);
+}
+
+/* ----About---- */
+
+/* ----Team---- */
+.team {
+  background: var(--background-color-sec);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.187;
   letter-spacing: 0.03em;
   color: var(--font-secondary-color);
 }
