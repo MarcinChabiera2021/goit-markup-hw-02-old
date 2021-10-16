@@ -109,3 +109,26 @@ button {
   letter-spacing: 0.03em;
   color: var(--font-secondary-color);
 }
+
+/* ----Footer---- */
+
+.footer {
+  background: var(--background-color-main);
+}
+.address-street {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--font-dark-theme);
+}
+
+.contact-link-footer {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-link-footer:hover,
+.contact-link-footer :focus {
+  color: var(--main-color);
+}
