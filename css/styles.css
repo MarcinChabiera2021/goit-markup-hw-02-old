@@ -163,3 +163,22 @@ button {
 .contact-link-footer :focus {
   color: var(--main-color);
 }
+
+/* ----PORTFOLIO---- */
+
+.modal-btn-filter {
+  width: 121px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--background-color-sec);
+}
+.modal-btn-filter:hover,
+.modal-btn-filter:focus {
+  color: #ffffff;
+  background: var(--main-color);
+}
