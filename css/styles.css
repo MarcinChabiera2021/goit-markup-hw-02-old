@@ -1,0 +1,47 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  --font-main-color: #212121;
+  --font-secondary-color: #757575;
+  --font-dark-theme: #ffffff;
+  --background-color-main: #2f303a;
+  --background-color-sec: #f5f4fa;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--font-main-color);
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*----Components----*/
+
+/*----Header Menu----*/
+.navi-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.navi-list-link:hover,
+.navi-list-link:focus {
+  color: var(--main-color);
+}
+
+.contact-link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--font-secondary-color);
+}
+.contact-link-header:hover,
+.contact-link-header:focus {
+  color: var(--main-color);
+}
