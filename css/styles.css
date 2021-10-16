@@ -45,3 +45,44 @@ li {
 .contact-link-header:focus {
   color: var(--main-color);
 }
+
+/*----Hero----*/
+
+.hero {
+  background: var(--background-color-main);
+}
+.hero-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--font-dark-theme);
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--font-dark-theme);
+  background: var(--main-color);
+  border-radius: 4px;
+}
+
+/*----Advantages----*/
+
+.advant-h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advant-text {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--font-secondary-color);
+}
